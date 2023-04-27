@@ -12,17 +12,17 @@ Our file structure is as follows
 │   ├── uniter_score.py
 │   ├── uniter_mod_score.py
 ├── train
-│   ├── vqa.py
 │   ├── uniter_modified_train.py
 │   ├── uniter_train.py
 │   ├── baseline.py
 │   ├── pyt1_app_train.py
 ```
-We have separated the code into train and score to experiment with the techniques. The dataset used is DAQUAR.
+We have separated the code into train and score to experiment with the techniques.
 
 To run each code:
 
 ```
-python <filename.py>
+python3 <filename.py>
 ```
 
+Dataset used - DAQUAR which can be downloaded from Kaggle - https://www.kaggle.com/datasets/dotran0101/daquar
